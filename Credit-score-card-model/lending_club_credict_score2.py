@@ -911,7 +911,7 @@ final_dataset.reset_index(level=None, drop=True, inplace=True)
 print('\n经过下采样后好样本与坏样本的数目为：')
 print(final_dataset['target'].value_counts())
 # print(final_dataset.head())
-final_dataset.to_csv(r'E:\PycharmProjects\sklearn\Data\风控\final_dataset1.csv', index=False)  # 最终数据集
-assist_dataset.to_csv(r'E:\PycharmProjects\sklearn\Data\风控\assist_dataset1.csv', index=False)  # 最终辅助数据集
+final_dataset.to_csv(r'E:\PycharmProjects\sklearn\Data\风控\final_dataset.csv', index=False)  # 最终数据集
+assist_dataset.to_csv(r'E:\PycharmProjects\sklearn\Data\风控\assist_dataset.csv', index=False)  # 最终辅助数据集
 
 print("DONE")
