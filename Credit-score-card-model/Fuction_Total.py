@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
+
 """
 此脚本用于定义函数，供1，2，3调用
 """
